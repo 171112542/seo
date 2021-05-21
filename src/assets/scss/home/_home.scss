@@ -1,0 +1,18 @@
+.home {
+  background: $color-primary;
+  &__title {
+    color: $color-on-primary;
+    font-style: bold;
+  }
+  &__subtitle {
+    color: $color-on-primary;
+  }
+  &__button {
+    display: flex;
+    flex-direction: column;
+    a {
+      background: $color-on-primary;
+      color: $color-primary;
+    }
+  }
+}
